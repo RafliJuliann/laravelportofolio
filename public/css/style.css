@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: rgb(167, 156, 231);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.container a{
+    color: black;
+}
+
+.tag a {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 900px;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+
+li {
+    text-align: center; 
+    margin: 10px ;
+    border-radius: 20px;
+    color: rgb(161, 66, 220);
+    border-radius: 5px;
+    background-color: rgb(205, 203, 230);
+    font-size: 17px;
+    border: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+.kontak img {
+    font-size: 20px;
+    width: 300px;
+    padding-left: 850px;
+    margin-top: 1px;
+}
+
+.kontak h1 {
+   padding-left: 300px;
+   padding-top: 200px;
+   margin-right: 200px;
+   text-shadow: 2px 3px gray;
+   font-style: italic;
+   font-size: 50px;
+}
+
+
+.kontak1 img {
+    font-size: 20px;
+    width: 300px;
+    padding-left: 800px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 10px;
+    background-color:rgb(167, 156, 231);
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 135px;
+}
+
+.kontak1 h2 {
+   background-color: rgb(167, 156, 231);
+   border-radius: 5px;
+   border: 3px solid black;
+   width: 250px;
+   margin-top: 200px;
+   text-align: center;
+   margin-left: 640px;
+   
+}
+
+.kontak2 {
+    display: flex;
+}
+.kontak2 img {
+    width: 400px;
+    padding-left: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.background {
+    background-color: rgb(167, 156, 231);
+    width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.kontak2 h1 {
+   background-color: rgb(167, 156, 231);
+   padding-left:50px;
+   margin-left: 15px;
+   float: left;
+   margin-top: 20px;
+   border-radius: 20px;
+   padding-top: 90px;
+   border: 2px solid black;
+   margin-right: 5px;
+   margin-bottom: 20px;
+}
+
+.box1 {
+    display: flex;
+}
+
+.box1 img {
+    font-size: 200px;
+    width: 400px;
+    margin-left: 510px;
+    margin-top: 20px;
+    background-color: rgb(167, 156, 231);
+    padding: 50px;
+    border-radius: 30px;
+    border: 5px solid black;
+}
+
+.box2 {
+    display: flex;
+}
+
+.box2 img {
+    font-size: 20px;
+    width: 350px;
+    margin-left: 209px;
+    margin-top: 30px;
+    box-shadow: 10px;
+    background-color: rgb(167, 156, 231);
+    padding: 50px;
+    border-radius: 30px;
+    border: 5px solid black;
+}
